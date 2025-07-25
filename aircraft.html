@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Squarebagel</title>
+  <link rel="stylesheet" href="aircraft.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">
+      <img src="./components/Main Logo.png" alt="Logo">
+      <span>squarebagel</span>
+    </div>
+
+    <div class="search-container">
+      <input type="text" placeholder="Search 3D Models, Projects...">
+      <i class="fas fa-search"></i>
+    </div>
+
+    <div class="actions">
+      <button class="share-btn">Share your work</button>
+      <a href="#">Login</a>
+      <a href="#">Cart <i class="fas fa-shopping-cart"></i></a>
+    </div>
+  </header>
+
+  <nav class="submenu">
+    <div class="dropdown-wrapper">
+      <a href="#" id="freelanceLink">
+        Freelance 3D Projects <i class="fas fa-chevron-down"></i>
+      </a>
+      <div class="dropdown" id="freelanceDropdown">
+        <a href="#" target="_blank">Air craft 3D model</a>
+        <a href="#">Car 3D model</a>
+        <a href="#">Architectural 3D model</a>
+      </div>
+    </div>
+    <a href="#">Sell 3D Models <i class="fas fa-chevron-down"></i></a>
+    <a href="#">Custom 3D Modeling <i class="fas fa-chevron-down"></i></a>
+    <a href="#">For Designers <i class="fas fa-chevron-down"></i></a>
+  </nav>
+  
+
+ 
+  <div class="breadcrumb">
+    <a href="index.html">Home</a>
+    <span class="separator">•</span>
+    <a href="index.html">Freelance 3D Projects</a>
+    <span class="separator">•</span>
+    <a href="aircraft.html" class="active">Aircraft 3D model</a>
+  </div>
+
+  <div class="main-title">
+    <h1>Aircraft 3D models</h1>
+    <p class="count">5,464 3d Items</p>
+    <p class="desc">
+      24,471 aircraft 3D models are available for download on our marketplace. 
+      CG <br><a href="https://www.cgtrader.com/3d-models/airplanes">airplanes</a> will fit into simulations, visualizations, 
+      advertisements and videos. <a href="https://www.cgtrader.com/3d-models/drone">Drones</a><br> bodies and parts will delight 
+      fans of tiny flying vehicles.
+    </p>
+  </div>
+
+  
+  <div class="filters">
+    <select>
+      <option>Formats</option>
+    </select>
+    <select>
+      <option>Poly count</option>
+    </select>
+    <select>
+      <option>License</option>
+    </select>
+    <select>
+      <option>Select attribute</option>
+    </select>
+
+    <div class="price-slider">
+      <span id="min-price">Rs.16,250</span>
+      <input type="range" min="16250" max="40830" value="16250" id="minRange">
+      
+      <span id="max-price">Rs.40,830</span>
+    </div>
+
+    <select class="sort-by">
+      <option>Sort By</option>
+    </select>
+  </div>
+
+  <hr class="custom-hr">
+
+  <div class="tags">
+    <span>Concept</span>
+    <span>Visual</span>
+    <span>Design</span>
+    <span>boeing 737</span>
+    <span>aviation</span>
+    <span>bombardier</span>
+    <span>Spitfire</span>
+  </div>
+
+  <div class="cards-container"></div>
+
+  <div class="cards">
+    <div class="card">
+      <img src="./components/model1.jpg" alt="Model 1">
+      <h4>3D Model</h4>
+      <p class="flight-name">Spitfire MKVB</p>
+      <p class="price">
+        Rs.14,715 <span class="old">Rs.16,350</span> <span class="off">(10% Off)</span>
+      </p>
+      <p class="format">max, obj, fbx, 3ds, lwo and more</p>
+    </div>
+
+    <div class="card">
+      <img src="./components/model2.jpg" alt="Model 2">
+      <h4>3D Model</h4>
+      <p class="flight-name">Boeing 737 Interior With Galley 3D model</p>
+      <p class="price">Rs.16,850</p>
+      <p class="format">max, obj, fbx, 3ds, lwo and more</p>
+    </div>
+
+    <div class="card">
+      <img src="./components/model3.jpg" alt="Model 3">
+      <h4>3D Model</h4>
+      <p class="flight-name">Flight Suit U2 Pilot 3D Model</p>
+      <p class="price">Rs.18,350</p>
+      <p class="format">max, obj, fbx, 3ds, lwo and more</p>
+    </div>
+
+    <div class="card">
+      <img src="./components/model4.jpg" alt="Model 4">
+      <h4>3D Model</h4>
+      <p class="flight-name">Flight Suit F35 Pilot 3D Model</p>
+      <p class="price">Rs.14,350</p>
+      <p class="format">max, obj, fbx, 3ds, lwo and more</p>
+    </div>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <img src="./components/model1.jpg" alt="Model 1">
+      <h4>3D Model</h4>
+      <p class="flight-name">Spitfire MKVB</p>
+      <p class="price">
+        Rs.14,715 <span class="old">Rs.16,350</span> <span class="off">(10% Off)</span>
+      </p>
+      <p class="format">max, obj, fbx, 3ds, lwo and more</p>
+    </div>
+
+    <div class="card">
+      <img src="./components/model2.jpg" alt="Model 2">
+      <h4>3D Model</h4>
+      <p class="flight-name">Boeing 737 Interior With Galley 3D model</p>
+      <p class="price">Rs.16,850</p>
+      <p class="format">max, obj, fbx, 3ds, lwo and more</p>
+    </div>
+
+    <div class="card">
+      <img src="./components/model3.jpg" alt="Model 3">
+      <h4>3D Model</h4>
+      <p class="flight-name">Flight Suit U2 Pilot 3D Model</p>
+      <p class="price">Rs.18,350</p>
+      <p class="format">max, obj, fbx, 3ds, lwo and more</p>
+    </div>
+
+    <div class="card">
+      <img src="./components/model4.jpg" alt="Model 4">
+      <h4>3D Model</h4>
+      <p class="flight-name">Flight Suit F35 Pilot 3D Model</p>
+      <p class="price">Rs.14,350</p>
+      <p class="format">max, obj, fbx, 3ds, lwo and more</p>
+    </div>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <img src="./components/model1.jpg" alt="Model 1">
+      <h4>3D Model</h4>
+      <p class="flight-name">Spitfire MKVB</p>
+      <p class="price">
+        Rs.14,715 <span class="old">Rs.16,350</span> <span class="off">(10% Off)</span>
+      </p>
+      <p class="format">max, obj, fbx, 3ds, lwo and more</p>
+    </div>
+
+    <div class="card">
+      <img src="./components/model2.jpg" alt="Model 2">
+      <h4>3D Model</h4>
+      <p class="flight-name">Boeing 737 Interior With Galley 3D model</p>
+      <p class="price">Rs.16,850</p>
+      <p class="format">max, obj, fbx, 3ds, lwo and more</p>
+    </div>
+
+    <div class="card">
+      <img src="./components/model3.jpg" alt="Model 3">
+      <h4>3D Model</h4>
+      <p class="flight-name">Flight Suit U2 Pilot 3D Model</p>
+      <p class="price">Rs.18,350</p>
+      <p class="format">max, obj, fbx, 3ds, lwo and more</p>
+    </div>
+
+    <div class="card">
+      <img src="./components/model4.jpg" alt="Model 4">
+      <h4>3D Model</h4>
+      <p class="flight-name">Flight Suit F35 Pilot 3D Model</p>
+      <p class="price">Rs.14,350</p>
+      <p class="format">max, obj, fbx, 3ds, lwo and more</p>
+    </div>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <img src="./components/model1.jpg" alt="Model 1">
+      <h4>3D Model</h4>
+      <p class="flight-name">Spitfire MKVB</p>
+      <p class="price">
+        Rs.14,715 <span class="old">Rs.16,350</span> <span class="off">(10% Off)</span>
+      </p>
+      <p class="format">max, obj, fbx, 3ds, lwo and more</p>
+    </div>
+
+    <div class="card">
+      <img src="./components/model2.jpg" alt="Model 2">
+      <h4>3D Model</h4>
+      <p class="flight-name">Boeing 737 Interior With Galley 3D model</p>
+      <p class="price">Rs.16,850</p>
+      <p class="format">max, obj, fbx, 3ds, lwo and more</p>
+    </div>
+
+    <div class="card">
+      <img src="./components/model3.jpg" alt="Model 3">
+      <h4>3D Model</h4>
+      <p class="flight-name">Flight Suit U2 Pilot 3D Model</p>
+      <p class="price">Rs.18,350</p>
+      <p class="format">max, obj, fbx, 3ds, lwo and more</p>
+    </div>
+
+    <div class="card">
+      <img src="./components/model4.jpg" alt="Model 4">
+      <h4>3D Model</h4>
+      <p class="flight-name">Flight Suit F35 Pilot 3D Model</p>
+      <p class="price">Rs.14,350</p>
+      <p class="format">max, obj, fbx, 3ds, lwo and more</p>
+    </div>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <img src="./components/model1.jpg" alt="Model 1">
+      <h4>3D Model</h4>
+      <p class="flight-name">Spitfire MKVB</p>
+      <p class="price">
+        Rs.14,715 <span class="old">Rs.16,350</span> <span class="off">(10% Off)</span>
+      </p>
+      <p class="format">max, obj, fbx, 3ds, lwo and more</p>
+    </div>
+
+    <div class="card">
+      <img src="./components/model2.jpg" alt="Model 2">
+      <h4>3D Model</h4>
+      <p class="flight-name">Boeing 737 Interior With Galley 3D model</p>
+      <p class="price">Rs.16,850</p>
+      <p class="format">max, obj, fbx, 3ds, lwo and more</p>
+    </div>
+
+    <div class="card">
+      <img src="./components/model3.jpg" alt="Model 3">
+      <h4>3D Model</h4>
+      <p class="flight-name">Flight Suit U2 Pilot 3D Model</p>
+      <p class="price">Rs.18,350</p>
+      <p class="format">max, obj, fbx, 3ds, lwo and more</p>
+    </div>
+
+    <div class="card">
+      <img src="./components/model4.jpg" alt="Model 4">
+      <h4>3D Model</h4>
+      <p class="flight-name">Flight Suit F35 Pilot 3D Model</p>
+      <p class="price">Rs.14,350</p>
+      <p class="format">max, obj, fbx, 3ds, lwo and more</p>
+    </div>
+  </div>
+  <br>
+  <br><br><br><br>
+  <div class="loading"><span><i class="fa-solid fa-spinner"></i></span></div>
+  <br><br><br><br>
+
+  <!-- footer -->
+
+<div class="footer">
+  <div class="top-footer">
+  <div class="newsletter">
+    <p class="small">Stay up to date</p>
+    <h2>get our<br>newsletter</h2>
+    <div class="inputbox-footer">
+      <input type="email" placeholder="Your email">
+      <button>→</button>
+    </div>
+  </div>
+
+  <div class="footer-links">
+    <div class="col-footer">
+      <h4>Company</h4>
+      <p>Blog</p>
+      <p>Events</p>
+      <p>Press</p>
+      <p>Careers</p>
+      <p>Help Center</p>
+      <p>Contact Us</p>
+    </div>
+    <div class="col-footer">
+      <h4>Modelry</h4>
+      <p>3D Viewer</p>
+      <p>3D Product</p>
+      <p>Visualization</p>
+      <p>3D Digital Asset</p>
+      <p>Management</p>
+      <p>Custom 3D</p>
+      <p>Modeling</p>
+      <p>Virtual</p>
+      <p>Photography</p>
+    </div>
+    <div class="col-footer">
+      <h4>Sell 3D Models</h4>
+      <p>Community</p>
+      <p>3D Designers</p>
+      <p>Forum</p>
+      <p>Freelance with us</p>
+      <p>Loyalty credits</p>
+      <p>Program</p>
+    </div>
+    <div class="col-footer">
+      <h4>Get in touch</h4>
+      <p class="call">hello@squarbagal.com</p>
+      <p class="call">+91 8826688426</p>
+      <h5>See what we’re up to</h5>
+      <div class="icons-footer">
+        <span><i class="fa-brands fa-facebook"></i></span>
+        <span><i class="fa-brands fa-twitter"></i></span>
+        <span><i class="fa-brands fa-instagram"></i></span>
+        <span><i class="fa-brands fa-youtube"></i></span>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="bottom-footer">
+    <div class="logo-footer">
+      <img src="./components/footer logo.png" width="40">
+      <span>squarebagel</span>
+    </div>
+    <div class="copy-footer">
+      <p>© Copyright squarebagel 2022</p>
+      <p>Terms & Conditions</p>
+      <p>Privacy Policy</p>
+    </div>
+    <div class="corner-image"><img src="./components/footer img.png"></div>
+  </div>
+</div>
+
+
+  <script src="script.js"></script>
+  </body>
+  </html>

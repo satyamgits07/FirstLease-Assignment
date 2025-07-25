@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Spitfire MKVB",
+    "image": "./components/model1.jpg",
+    "price": 14715,
+    "oldPrice": 16350,
+    "discount": "10%",
+    "formats": ["max", "obj", "fbx", "3ds", "lwo"]
+  },
+  {
+    "id": 2,
+    "name": "Boeing 737 Interior With Galley 3D model",
+    "image": "./components/model2.jpg",
+    "price": 16850,
+    "oldPrice": null,
+    "discount": null,
+    "formats": ["max", "obj", "fbx", "3ds", "lwo"]
+  },
+  {
+    "id": 3,
+    "name": "Flight Suit U2 Pilot 3D Model",
+    "image": "./components/model3.jpg",
+    "price": 18350,
+    "oldPrice": null,
+    "discount": null,
+    "formats": ["max", "obj", "fbx", "3ds", "lwo"]
+  },
+  {
+    "id": 4,
+    "name": "Flight Suit F35 Pilot 3D Model",
+    "image": "./components/model4.jpg",
+    "price": 14350,
+    "oldPrice": null,
+    "discount": null,
+    "formats": ["max", "obj", "fbx", "3ds", "lwo"]
+  }
+]
